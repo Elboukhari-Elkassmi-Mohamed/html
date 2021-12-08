@@ -1,15 +1,18 @@
  
  ul {
     list-style-type: none;
-    text-align: center;
+   text-align: center;
+    
+    
     
      
   }
 
   li {
-      margin-left: 15px;
-      margin: 10px  20px;
-      display: inline;  
+      /* margin-left: 15px; */
+      margin: 15px  20px;
+      display: inline-block;  
+     
   }
 
 
@@ -17,21 +20,25 @@
   li :hover{
   
     text-decoration: underline;
+    color: rgb(13, 179, 179);
     }
     
 .tophead{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+    
+    
   }
   a {
       text-decoration: none;
       color: black;
   }
    .none{
+     display: flex;
    margin-left:-60px;
    }
 
-  
 
   .kid {
     border: 2px solid rgb(134, 134, 134);
@@ -46,7 +53,9 @@
   .parent{
     display: flex;
     padding: 0px; 
-    justify-content: space-around
+    justify-content: space-around;
+    flex-wrap: wrap;
+
  }
   .ba {
     color: rgb(0, 0, 0);
@@ -71,5 +80,17 @@
     
 
   }
-  
-  
+  @media (max-width: 600px) {
+    .tophead {
+
+      flex-direction: column;
+      
+    }
+    .none{
+      margin: 0;
+      padding: 0;
+    }
+    
+
+   
+  }

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  box-sizing: border-box;
+
+}
+
+.logo {
+   
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    margin: auto;
+    border-radius: 40%;
+    }
+
+    .parent img{
+        width: 240px;
+    }
+
+ .tophead a {     
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    padding: 2px;
+
+ }
+    * {
+        list-style-type: none;
+        text-decoration: none;
+       
+    } 
+
+    .tophead ul {
+        margin: 32px auto;
+        justify-content:space-around;
+        display: flex;
+   
+    }
+
+    .none  a {
+        text-decoration: none;     
+    }
+
+    .none  li {
+    display: contents;
+
+    }
+    .none{
+      padding-left: 10px;
+
+    }
+    .title {
+      padding-left: 10px;
+
+    } 
+
+
+
+
+    .kid {
+        border: 2px solid rgb(134, 134, 134);
+        margin: 10px;
+        padding: 10px;
+        
+      }
+      .kid img {
+        height: 140 px ;
+        width: 180px; 
+      }
+      .parent{
+        display: flex;
+        padding: 0px; 
+        justify-content: space-around;
+        flex-wrap: wrap;
+    
+     }
+      .ba {
+        color: rgb(0, 0, 0);
+        
+      }
+    
+      .bb {
+        color:gray;
+        margin:0%;
+          }
+    
+      .bc{
+        color:black;
+        margin:0%;
+        
+    
+      }
+     
+      .bd {
+        color: rgb(90, 168, 0);
+        margin:0%;
+        
+    
+      }
+
+      @media  (min-width: 900px){
+        .logo {
+            margin-left: 10px;
+            margin-right: 100px;
+           
+
+         }
+         .tophead {
+           display: flex;
+           align-items: center;
+
+           
+           
+
+         }
+         .tophead ul li  {
+          justify-content:space-around;
+           margin-right: 20px;
+           padding: 8px 15px;
+         }
+         .none{
+           margin-top: 40px;
+         }
+        
+      }
+    
+
