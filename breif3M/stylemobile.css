@@ -110,7 +110,7 @@ body{
 
       @media  (min-width: 900px){
         .logo {
-            margin-left: 10px;
+           margin-left: 10px;
             margin-right: 100px;
            
 
@@ -120,8 +120,6 @@ body{
            align-items: center;
 
            
-           
-
          }
          .tophead ul li  {
           justify-content:space-around;
