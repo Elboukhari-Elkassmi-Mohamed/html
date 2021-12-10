@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* background-image: url("house.jpg"); */
+    
+    background:linear-gradient(rgb(54, 55, 110), rgba(26, 18, 128, 0.377)), url(house.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+.phrase{
+    font-family:roboto;
+    margin: 60px 0;
+    font-size: 10px;
+    text-align:center;
+}
+
+
+
+main {
+    background: rgba(248, 247, 247, 0.753);
+    width: 80%;
+    height: 85vh;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    margin: 40px auto;
+    border-radius: 10px;
+}
+
+form{
+    margin: 0 auto ;
+    text-align: center;
+}
+
+form input{
+    margin-bottom: 17px;
+    border: none;
+    width: 130px;
+    border-bottom: 1px solid rgb(44, 44, 44);
+    background-color: transparent;
+    padding:0 10px;
+}
+
+form input:focus{
+    outline: none;
+}
+form input::placeholder{
+    text-align: center;
+}
