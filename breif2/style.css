@@ -9,9 +9,9 @@
   }
 
   li {
-      /* margin-left: 15px; */
-      margin: 15px  20px;
-      display: inline-block;  
+
+    margin: 15px  20px;
+    display: inline-block;  
      
   }
 
@@ -26,7 +26,7 @@
 .tophead{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    s
     
     
   }
